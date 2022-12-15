@@ -7,7 +7,6 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import article from "./article";
 import header from "./header";
 import footer from "./footer";
-import socialMedia from "./socialMedia";
 import subMenu from "./subMenu";
 import menu from "./menu";
 import menuObject from "./menuObject";
@@ -51,7 +50,6 @@ export default createSchema({
     cardReference,
     footer,
     header,
-    socialMedia,
     subMenu,
     menu,
     menuObject,

@@ -21,10 +21,5 @@ export default {
       name: "richTextHero",
       type: "richTextBody",
     },
-    {
-      title: "Social Media",
-      name: "socialNetworks",
-      type: "boolean",
-    },
   ],
 };
