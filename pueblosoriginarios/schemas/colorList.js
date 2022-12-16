@@ -4,8 +4,8 @@ export default {
   title: "Background Color",
   options: {
     list: [
-      { title: "Verde Oscuro", value: "#0A694D" },
-      { title: "Verde Claro", value: "#A3E8C4" },
+      { title: "Verde Oscuro", value: "#4e7706" },
+      { title: "Verde Claro", value: "#83b829" },
       { title: "Negro", value: "#1B1C1E" },
       { title: "Blanco", value: "#FCFCFC" },
       { title: "Gris Oscuro", value: "#868585" },
