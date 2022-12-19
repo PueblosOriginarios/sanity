@@ -44,6 +44,12 @@ export default {
           title: "Vigentes",
           to: [{ type: "vigentes" }],
         },
+        {
+          name: "carousel",
+          type: "reference",
+          title: "Carousel",
+          to: [{ type: "carousel" }],
+        },
       ],
     },
   ],
