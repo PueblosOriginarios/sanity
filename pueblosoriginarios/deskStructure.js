@@ -21,13 +21,8 @@ export default () =>
         .child(S.document().schemaType("residentes").documentId("residentes")),
       ...S.documentTypeListItems().filter(
         (listItem) =>
-          ![
-            "footer",
-            "header",
-            "home",
-            "visitant",
-            "residentes",
-            "historiaGuarani",
-          ].includes(listItem.getId())
+          !["footer", "header", "home", "visitant", "residentes"].includes(
+            listItem.getId()
+          )
       ),
     ]);
