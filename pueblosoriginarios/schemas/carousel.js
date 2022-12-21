@@ -12,8 +12,14 @@ export default {
       name: "images",
       type: "array",
       title: "Images",
-      hotspotL: true,
-      of: [{ type: "image" }],
+      of: [
+        {
+          type: "image",
+          options: {
+            hotspot: true,
+          },
+        },
+      ],
     },
   ],
 };
