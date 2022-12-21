@@ -33,7 +33,7 @@ export default {
           type: "dualSectionArray",
         },
         {
-          type: "imageComponent",
+          type: "carousel",
         },
         {
           type: "textBlock",
