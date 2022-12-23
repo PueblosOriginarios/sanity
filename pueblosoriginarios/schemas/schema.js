@@ -41,6 +41,7 @@ import arrayBanner from "./arrayBanner";
 import booleanArticle from "./boolean";
 import carousel from "./carousel";
 import historia from "./historia";
+import cultura from "./cultura";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -83,5 +84,6 @@ export default createSchema({
     booleanArticle,
     carousel,
     historia,
+    cultura,
   ]),
 });
