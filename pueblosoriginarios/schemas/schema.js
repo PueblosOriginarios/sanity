@@ -44,6 +44,7 @@ import historia from "./historia";
 import cultura from "./cultura";
 import pdf from "./pdf"
 import categories from "./categories"
+import categoryReference from "./categoryReference";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -89,5 +90,6 @@ export default createSchema({
     cultura,
     categories,
     pdf,
+    categoryReference,
   ]),
 });

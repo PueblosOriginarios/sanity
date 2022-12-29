@@ -1,13 +1,15 @@
+import categories from "./categories";
+
 export default {
   name: "pdf",
   type: "document",
   title: "PDF",
   fields: [
     {
-      name: "category",
-      type: "reference",
-      title: "Category",
-      to: [{ type: "categories" }],
+      name: "categoryReferences",
+      type: "array",
+      title: "Categories",
+      of: [{ type: "categoryReference" }],
     },
     {
       name: "title",
