@@ -42,6 +42,9 @@ import booleanArticle from "./boolean";
 import carousel from "./carousel";
 import historia from "./historia";
 import cultura from "./cultura";
+import pdf from "./pdf"
+import categories from "./categories"
+import categoryReference from "./categoryReference";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -85,5 +88,8 @@ export default createSchema({
     carousel,
     historia,
     cultura,
+    categories,
+    pdf,
+    categoryReference,
   ]),
 });
