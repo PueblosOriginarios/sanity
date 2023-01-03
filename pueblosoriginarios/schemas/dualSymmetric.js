@@ -1,12 +1,12 @@
 export default {
   name: "dualSymmetric",
   type: "document",
-  title: "Dual Symmetric",
+  title: "Simetrico Dual",
   fields: [
     {
       name: "imageDualS",
       type: "image",
-      title: "Image",
+      title: "Imagen",
       options: {
         hotspot: true,
       },
@@ -17,19 +17,19 @@ export default {
       type: "youtube",
     },
     {
-      title: "Title",
+      title: "Titulo",
       name: "titleDualS",
       type: "string",
     },
     {
-      title: "Body",
+      title: "Cuerpo",
       name: "richTextDualS",
       type: "richTextBody",
     },
     {
       name: "imageSide",
       type: "string",
-      title: "Image Side",
+      title: "Lado Imagen",
       options: {
         list: [
           { title: "Left", value: "left" },
@@ -38,22 +38,22 @@ export default {
       },
     },
     {
-      title: "Profile",
+      title: "Perfil",
       name: "iconObject",
       type: "iconTextObject",
     },
     {
-      title: "Short text",
+      title: "Texto Corto",
       name: "shortText",
       type: "string",
     },
     {
-      title: "Button",
+      title: "Boton",
       name: "button",
       type: "buttonObject",
     },
     {
-      title: "Background Color",
+      title: "Color de Fondo",
       name: "backgroundColor",
       type: "color",
     },

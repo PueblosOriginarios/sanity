@@ -1,17 +1,17 @@
 export default {
   name: "carousel",
   type: "document",
-  title: "Carousel",
+  title: "Carrusel",
   fields: [
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "images",
       type: "array",
-      title: "Images",
+      title: "Imagenes",
       of: [
         {
           type: "image",

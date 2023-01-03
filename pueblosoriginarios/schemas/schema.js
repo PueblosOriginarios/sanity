@@ -12,7 +12,6 @@ import menu from "./menu";
 import menuObject from "./menuObject";
 import subMenuObject from "./subMenuObject";
 import buttonObject from "./buttonObject";
-import hero from "./hero";
 import richText from "./richText";
 import banner from "./banner";
 import bannerDoble from "./bannerDoble";
@@ -22,21 +21,15 @@ import dualSymmetric from "./dualSymmetric";
 import dualAsymmetric from "./dualAsymmetric";
 import iconTextObject from "./iconTextObject";
 import colorList from "./colorList";
-import vigentes from "./vigentes";
 import articleReference from "./articleReference";
 import textBlock from "./textBlock";
-import cardsVigentes from "./cardsVigentes";
-import cardReference from "./cardReference";
 import articleCard from "./articleCard";
 import moduloResidentes from "./moduloResidentes";
 import producto from "./producto";
 import quoteCard from "./quoteCard";
 import quotes from "./quotes";
-import residentes from "./residentes";
-import visitant from "./visitant";
 import arrayDualSection from "./arrayDualSection";
 import image from "./imageComponent";
-import heroBackground from "./heroBackground";
 import arrayBanner from "./arrayBanner";
 import booleanArticle from "./boolean";
 import carousel from "./carousel";
@@ -53,8 +46,6 @@ export default createSchema({
   types: schemaTypes.concat([
     article,
     articleCard,
-    cardsVigentes,
-    cardReference,
     footer,
     header,
     subMenu,
@@ -62,7 +53,6 @@ export default createSchema({
     menuObject,
     subMenuObject,
     buttonObject,
-    hero,
     richText,
     banner,
     bannerDoble,
@@ -72,7 +62,6 @@ export default createSchema({
     home,
     dualSymmetric,
     dualAsymmetric,
-    vigentes,
     articleReference,
     textBlock,
     image,
@@ -81,9 +70,6 @@ export default createSchema({
     producto,
     quoteCard,
     quotes,
-    residentes,
-    visitant,
-    heroBackground,
     arrayBanner,
     booleanArticle,
     carousel,

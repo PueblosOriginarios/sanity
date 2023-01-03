@@ -6,7 +6,7 @@ export default {
     {
       name: "imageIcon",
       type: "image",
-      title: "Icon",
+      title: "Icono",
       options: {
         hotspot: true,
       },
@@ -14,17 +14,17 @@ export default {
     {
       name: "label",
       type: "string",
-      title: "Label",
+      title: "Etiqueta",
     },
     {
       name: "description",
       type: "string",
-      title: "Description",
+      title: "Descripcion",
     },
     {
       name: "link",
       type: "url",
-      title: "Link",
+      title: "Enlace",
     },
   ],
 };

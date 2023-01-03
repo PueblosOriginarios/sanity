@@ -1,22 +1,22 @@
 export default {
   name: "footer",
   type: "document",
-  title: "Footer Schema",
+  title: "Pie de página",
   fields: [
     {
       name: "address",
       type: "string",
-      title: "Address",
+      title: "Direccion",
     },
     {
       name: "phone",
       type: "string",
-      title: "Phone",
+      title: "Telefono",
     },
     {
       name: "email",
       type: "string",
-      title: "Email",
+      title: "Correo",
     },
   ],
 };
