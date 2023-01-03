@@ -5,24 +5,15 @@ export default () =>
     .title("Base")
     .items([
       S.listItem()
-        .title("Footer")
+        .title("Pie de página")
         .child(S.document().schemaType("footer").documentId("footer")),
       S.listItem()
-        .title("Header")
+        .title("Encabezado")
         .child(S.document().schemaType("header").documentId("header")),
       S.listItem()
-        .title("Home")
+        .title("Pagina de inicio")
         .child(S.document().schemaType("home").documentId("home")),
-      S.listItem()
-        .title("Visitant")
-        .child(S.document().schemaType("visitant").documentId("visitant")),
-      S.listItem()
-        .title("Residente")
-        .child(S.document().schemaType("residentes").documentId("residentes")),
       ...S.documentTypeListItems().filter(
-        (listItem) =>
-          !["footer", "header", "home", "visitant", "residentes"].includes(
-            listItem.getId()
-          )
+        (listItem) => !["footer", "header", "home"].includes(listItem.getId())
       ),
     ]);

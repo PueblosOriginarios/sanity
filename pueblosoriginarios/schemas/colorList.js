@@ -1,7 +1,7 @@
 export default {
   name: "color",
   type: "colorlist",
-  title: "Background Color",
+  title: "Color de Fondo",
   options: {
     list: [
       { title: "Verde Oscuro", value: "#4e7706" },

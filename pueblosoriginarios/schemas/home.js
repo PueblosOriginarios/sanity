@@ -1,12 +1,12 @@
 export default {
   name: "home",
   type: "document",
-  title: "Home Schema",
+  title: "Página de inicio",
   fields: [
     {
       name: "HomeBuilder",
       type: "array",
-      title: "Home Builder",
+      title: "Constructor Página de inicio",
       of: [
         {
           name: "banner",
@@ -21,33 +21,21 @@ export default {
           to: [{ type: "bannerDoble" }],
         },
         {
-          name: "hero",
-          type: "reference",
-          title: "Hero",
-          to: [{ type: "hero" }],
-        },
-        {
           name: "dualSymmetric",
           type: "reference",
-          title: "Dual Symmetric",
+          title: "Simetrico Dual",
           to: [{ type: "dualSymmetric" }],
         },
         {
           name: "dualAsymmetric",
           type: "reference",
-          title: "Dual Asymmetric",
+          title: "Asimetrico Dual",
           to: [{ type: "dualAsymmetric" }],
-        },
-        {
-          name: "vigentes",
-          type: "reference",
-          title: "Vigentes",
-          to: [{ type: "vigentes" }],
         },
         {
           name: "carousel",
           type: "reference",
-          title: "Carousel",
+          title: "Carrusel",
           to: [{ type: "carousel" }],
         },
       ],

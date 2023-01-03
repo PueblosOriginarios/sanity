@@ -6,12 +6,12 @@ export default {
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "image",
       type: "image",
-      title: "Image",
+      title: "Imagen",
       options: {
         hotspot: true,
       },
@@ -19,43 +19,43 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Image Description",
+      title: "Descripcion de la Imagen",
     },
     {
       name: "content",
       type: "richTextBody",
-      title: "Content",
+      title: "Contenido",
     },
     {
       name: "subtitle",
       type: "iconTextObject",
-      title: "Subtitle",
+      title: "Subtitulo",
     },
     {
       name: "button",
       type: "buttonObject",
-      title: "Button",
+      title: "Boton",
     },
     {
       name: "buttonType",
       type: "string",
-      title: "Button Type",
+      title: "Tipo de Boton",
       options: {
         list: [
-          { title: "Button", value: "button" },
-          { title: "Link", value: "link" },
+          { title: "Boton", value: "button" },
+          { title: "Enlace", value: "link" },
         ],
       },
     },
     {
       name: "colorLeft",
       type: "color",
-      title: "Color Left",
+      title: "Color Izquierdo",
     },
     {
       name: "colorRight",
       type: "color",
-      title: "Color Right",
+      title: "Color Derecho",
     },
   ],
 };

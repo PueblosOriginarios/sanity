@@ -8,13 +8,13 @@ export default {
     {
       name: "categoryReferences",
       type: "array",
-      title: "Categories",
+      title: "Categorias",
       of: [{ type: "categoryReference" }],
     },
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "slug",
@@ -22,9 +22,21 @@ export default {
       title: "Slug",
     },
     {
+      name: "tipoPdf",
+      type: "string",
+      title: "Tipo PDF",
+      options: {
+        list: [
+          { title: "Guaraní", value: "guarani" },
+          { title: "Chané", value: "chane" },
+          { title: "Ambos", value: "ambos" },
+        ],
+      },
+    },
+    {
       name: "image",
       type: "image",
-      title: "Image",
+      title: "Imagen",
       options: {
         hotspot: true,
       },
@@ -32,22 +44,22 @@ export default {
     {
       name: "link",
       type: "url",
-      title: "Link",
+      title: "Enlace",
     },
     {
       name: "shortDescription",
       type: "richTextBody",
-      title: "Short Description",
+      title: "Descripción Corta",
     },
     {
       name: "description",
       type: "richTextBody",
-      title: "Description",
+      title: "Descripcion",
     },
     {
       name: "centeredText",
       type: "richTextBody",
-      title: "Centered Text",
+      title: "Texto Centrado",
     },
   ],
 };

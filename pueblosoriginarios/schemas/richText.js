@@ -1,7 +1,7 @@
 export default {
   name: "richTextBody",
   type: "array",
-  title: "Body",
+  title: "Contenido",
   of: [
     {
       type: "block",

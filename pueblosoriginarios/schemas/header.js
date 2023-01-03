@@ -1,17 +1,12 @@
 export default {
   name: "header",
   type: "document",
-  title: "Header Schema",
+  title: "Encabezado",
   fields: [
     {
       name: "logo",
       type: "imageComponent",
-      title: "Logo Desktop",
-    },
-    {
-      name: "logoMobile",
-      type: "imageComponent",
-      title: "Logo Mobile",
+      title: "Logo",
     },
     {
       title: "Menu",
@@ -21,7 +16,7 @@ export default {
     {
       name: "ctaButton",
       type: "buttonObject",
-      title: "Button",
+      title: "Boton",
     },
   ],
 };
