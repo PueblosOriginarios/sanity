@@ -6,12 +6,12 @@ export default {
     {
       name: "nameButton",
       type: "string",
-      title: "Name",
+      title: "Nombre",
     },
     {
       name: "link",
       type: "string",
-      title: "Link",
+      title: "Enlace",
     },
   ],
 };

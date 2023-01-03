@@ -6,12 +6,12 @@ export default {
         {
             name: "Namesubmenu",
             type: "string",
-            title: "Name Submenu",
+            title: "Nombre Submenu",
         },
         {
             name: "link",
             type: "string",
-            title: "Link",
+            title: "Enlace",
         },
     ],
 }
