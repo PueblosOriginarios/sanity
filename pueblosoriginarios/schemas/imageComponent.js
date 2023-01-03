@@ -1,7 +1,7 @@
 export default {
   name: "imageComponent",
   type: "image",
-  title: "Image",
+  title: "Imagen",
   options: {
     hotspot: true,
   },

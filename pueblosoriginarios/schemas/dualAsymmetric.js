@@ -1,17 +1,17 @@
 export default {
   name: "dualAsymmetric",
   type: "document",
-  title: "Dual Asymmetric",
+  title: "Asimetrico Dual",
   fields: [
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "image",
       type: "image",
-      title: "Image",
+      title: "Imagen",
       options: {
         hotspot: true,
       },
@@ -19,7 +19,7 @@ export default {
     {
       name: "imageSide",
       type: "string",
-      title: "Image Side",
+      title: "Lado imagen",
       options: {
         list: [
           { title: "Left", value: "left" },
@@ -30,27 +30,27 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Description",
+      title: "Descripcion",
     },
     {
       name: "richTextDualA",
       type: "richTextBody",
-      title: "Content",
+      title: "Contenido",
     },
     {
       name: "button",
       type: "buttonObject",
-      title: "Button",
+      title: "Boton",
     },
     {
       name: "colorLeft",
       type: "color",
-      title: "Color Left",
+      title: "Color Izquierdo",
     },
     {
       name: "colorRight",
       type: "color",
-      title: "Color Right",
+      title: "Color Derecho",
     },
   ],
 };

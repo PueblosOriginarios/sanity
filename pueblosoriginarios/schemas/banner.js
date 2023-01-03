@@ -6,12 +6,12 @@ export default {
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "image",
       type: "image",
-      title: "Image",
+      title: "Imagen",
       options: {
         hotspot: true,
       },
@@ -19,12 +19,12 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Description",
+      title: "Descripcion",
     },
     {
       name: "color",
       type: "color",
-      title: "Color List",
+      title: "Lista de Colores",
     },
   ],
 };

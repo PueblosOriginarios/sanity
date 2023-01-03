@@ -6,12 +6,12 @@ export default {
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "imageHeader",
       type: "imageComponent",
-      title: "Image Header",
+      title: "Imagen Cabecera",
     },
     {
       name: "tipoCultura",
