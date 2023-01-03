@@ -22,6 +22,18 @@ export default {
       title: "Slug",
     },
     {
+      name: "tipoPdf",
+      type: "string",
+      title: "Tipo PDF",
+      options: {
+        list: [
+          { title: "Guaraní", value: "guarani" },
+          { title: "Chané", value: "chane" },
+          { title: "Ambos", value: "ambos" },
+        ],
+      },
+    },
+    {
       name: "image",
       type: "image",
       title: "Image",
