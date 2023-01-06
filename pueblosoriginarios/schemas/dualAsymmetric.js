@@ -22,8 +22,8 @@ export default {
       title: "Lado imagen",
       options: {
         list: [
-          { title: "Left", value: "left" },
-          { title: "Right", value: "right" },
+          { title: "Izquierda", value: "left" },
+          { title: "Derecha", value: "right" },
         ],
       },
     },

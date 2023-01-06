@@ -1,17 +1,28 @@
 export default {
   name: "article",
   type: "document",
-  title: "Article",
+  title: "Articulo-Noticia",
   fields: [
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "imageHeader",
       type: "imageComponent",
-      title: "Image Header",
+      title: "Imagen Cabecera",
+    },
+    {
+      name: "tipoArticuloNoticia",
+      type: "string",
+      title: "Tipo Artículo",
+      options: {
+        list: [
+          { title: "Guaraní", value: "guarani" },
+          { title: "Chané", value: "chane" },
+        ],
+      },
     },
     {
       name: "slug",
@@ -22,12 +33,17 @@ export default {
       },
     },
     {
+      name: "richText",
+      type: "richTextBody",
+      title: "Contenido",
+    },
+    {
       name: "ArticleBuilder",
       type: "array",
-      title: "Components",
+      title: "Componentes",
       of: [
         {
-          type: "imageComponent",
+          type: "carousel",
         },
         {
           type: "textBlock",
@@ -35,23 +51,10 @@ export default {
         {
           type: "dualSectionArray",
         },
+        {
+          type: "youtube",
+        },
       ],
-    },
-    {
-      name: "otherTitle",
-      type: "string",
-      title: "Subtitle",
-    },
-    {
-      name: "articleReferences",
-      type: "array",
-      title: "Otros Visitantes",
-      of: [{ type: "articleReference" }],
-    },
-    {
-      name: "articleCard",
-      type: "articleCard",
-      title: "Article Card",
     },
   ],
 };
