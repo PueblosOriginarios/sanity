@@ -28,6 +28,11 @@ export default {
       },
     },
     {
+      name: "urlAudio",
+      type: "file",
+      title: "Audio",
+    },
+    {
       name: "description",
       type: "string",
       title: "Descripcion",

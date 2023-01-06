@@ -33,6 +33,11 @@ export default {
             type: "dualSectionArray",
           },
           {
+            title: "Dual Asimetrico",
+            type: "reference",
+            to: [{ type: "dualAsymmetric" }],
+          },
+          {
             type: "carousel",
           },
           {
