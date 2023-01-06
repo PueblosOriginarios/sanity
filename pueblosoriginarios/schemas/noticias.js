@@ -6,7 +6,7 @@ export default {
     {
       name: "title",
       type: "string",
-      title: "Title",
+      title: "Titulo",
     },
     {
       name: "tipoNoticias",
@@ -18,24 +18,6 @@ export default {
           { title: "Chané", value: "chane" },
         ],
       },
-    },
-    {
-      name: "subTitle",
-      type: "string",
-      title: "SubTitulo",
-    },
-    {
-      name: "noticiasBuilder",
-      type: "array",
-      title: "Componentes noticias",
-      of: [
-        {
-          type: "textBlock",
-        },
-        {
-          type: "booleanNoticias",
-        },
-      ],
     },
   ],
 };

@@ -39,9 +39,9 @@ import pdf from "./pdf";
 import categories from "./categories";
 import categoryReference from "./categoryReference";
 import noticias from "./noticias";
-import cardNoticias from "./cardNoticias";
 import booleanNoticias from "./booleanNoticias";
 import materiales from "./materiales";
+import eventos from "./eventos";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -82,8 +82,8 @@ export default createSchema({
     pdf,
     categoryReference,
     noticias,
-    cardNoticias,
     booleanNoticias,
     materiales,
+    eventos,
   ]),
 });
