@@ -41,6 +41,7 @@ import categoryReference from "./categoryReference";
 import materiales from "./materiales";
 import lengua from "./lengua";
 import bibliografia from "./bibliografia";
+import componentBibliografia from "./componentBibliografia";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -82,6 +83,7 @@ export default createSchema({
     categoryReference,
     materiales,
     lengua,
-    bibliografia
+    bibliografia,
+    componentBibliografia
   ]),
 });
