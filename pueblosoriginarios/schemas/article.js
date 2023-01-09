@@ -54,6 +54,11 @@ export default {
         {
           type: "youtube",
         },
+        {
+          title: "Dual Asimetrico",
+          type: "reference",
+          to: [{ type: "dualAsymmetric" }],
+        },
       ],
     },
   ],
