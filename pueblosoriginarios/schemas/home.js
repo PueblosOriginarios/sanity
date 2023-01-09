@@ -9,6 +9,9 @@ export default {
       title: "Constructor Página de inicio",
       of: [
         {
+          type: "textBlock",
+        },
+        {
           name: "banner",
           type: "reference",
           title: "Banner",
