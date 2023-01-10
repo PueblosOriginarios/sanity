@@ -43,6 +43,8 @@ import booleanNoticias from "./booleanNoticias";
 import materiales from "./materiales";
 import eventos from "./eventos";
 import lengua from "./lengua";
+import bibliografia from "./bibliografia";
+import componentBibliografia from "./componentBibliografia";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -85,7 +87,10 @@ export default createSchema({
     noticias,
     booleanNoticias,
     materiales,
-    eventos,
     lengua,
+    bibliografia,
+    componentBibliografia,
+    eventos,
+  
   ]),
 });
