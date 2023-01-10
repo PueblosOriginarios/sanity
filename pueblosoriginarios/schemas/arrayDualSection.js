@@ -1,7 +1,7 @@
 export default {
   name: "dualSectionArray",
   type: "object",
-  title: "Dual Section",
+  title: "Dual Simetrico",
   fields: [
     {
       name: "dualSymmetric",

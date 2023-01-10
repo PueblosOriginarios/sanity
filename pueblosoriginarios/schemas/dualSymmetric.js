@@ -32,13 +32,13 @@ export default {
       title: "Lado Imagen",
       options: {
         list: [
-          { title: "Left", value: "left" },
-          { title: "Right", value: "right" },
+          { title: "Izquiera", value: "left" },
+          { title: "Derecho", value: "right" },
         ],
       },
     },
     {
-      title: "Perfil",
+      title: "Información Icono",
       name: "iconObject",
       type: "iconTextObject",
     },

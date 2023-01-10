@@ -35,10 +35,16 @@ import booleanArticle from "./boolean";
 import carousel from "./carousel";
 import historia from "./historia";
 import cultura from "./cultura";
-import pdf from "./pdf"
-import categories from "./categories"
+import pdf from "./pdf";
+import categories from "./categories";
 import categoryReference from "./categoryReference";
+import noticias from "./noticias";
+import booleanNoticias from "./booleanNoticias";
 import materiales from "./materiales";
+import eventos from "./eventos";
+import lengua from "./lengua";
+import bibliografia from "./bibliografia";
+import componentBibliografia from "./componentBibliografia";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -78,6 +84,13 @@ export default createSchema({
     categories,
     pdf,
     categoryReference,
+    noticias,
+    booleanNoticias,
     materiales,
+    lengua,
+    bibliografia,
+    componentBibliografia,
+    eventos,
+  
   ]),
 });

@@ -21,10 +21,5 @@ export default {
       type: "string",
       title: "Descripcion",
     },
-    {
-      name: "link",
-      type: "url",
-      title: "Enlace",
-    },
   ],
 };
