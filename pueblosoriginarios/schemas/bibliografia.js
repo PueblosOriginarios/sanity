@@ -1,12 +1,17 @@
 export default {
-  name: "componentbibliografia",
-  type: "object",
-  title: "Bibliografía Componentes",
+  name: "bibliografia",
+  type: "document",
+  title: "Bibliografía",
   fields: [
+    {
+      name: "title",
+      type: "string",
+      title: "Titulo",
+    },
     {
       name: "tipoBibliografia",
       type: "string",
-      title: "Bibliografía",
+      title: "Tipo de Bibliografia",
       options: {
         list: [
           { title: "Guaraní", value: "guarani" },
@@ -14,20 +19,16 @@ export default {
         ],
       },
     },
-    { type: "string", name: "title", title: "Titulo" },
-    { type: "string", name: "author", title: "Autor" },
-    { type: "richTextBody", name: "richTextBody", title: "Bloque de Texto" },
     {
-      type: "categoryReference",
-      name: "categoryReferenceBibliografia",
-      title: "Categoría",
-    },
-    {
-      type: "reference",
-      name: "referenceBibliografia",
-      title: "PDF",
-      to: { type: "pdf" },
+      name: "bibliografia",
+      type: "array",
+      title: "Bibliografía",
+      of: [
+        {
+          type: "componentbibliografia",
+          title: "Componentes de página Bibliografía",
+        },
+      ],
     },
   ],
 };
-  
