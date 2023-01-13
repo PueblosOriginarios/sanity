@@ -8,5 +8,19 @@ export default {
       type: "string",
       title: "Correo",
     },
+
+    {
+      name: "logo",
+      type: "array",
+      title: "Logos",
+      of: [
+        {
+          type: "imageComponent",
+          title: "Logo",
+        },
+       
+      ],
+    },
+
   ],
 };
