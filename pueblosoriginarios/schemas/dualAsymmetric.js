@@ -48,14 +48,9 @@ export default {
       title: "Boton",
     },
     {
-      name: "colorLeft",
+      title: "Color de Fondo",
+      name: "bgColor",
       type: "color",
-      title: "Color Izquierdo",
-    },
-    {
-      name: "colorRight",
-      type: "color",
-      title: "Color Derecho",
     },
   ],
 };
