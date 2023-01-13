@@ -19,16 +19,16 @@ export default {
         ],
       },
     },
-    {
-      name: "bibliografia",
-      type: "array",
-      title: "Bibliografía",
-      of: [
-        {
-          type: "componentbibliografia",
-          title: "Componentes de página Bibliografía",
-        },
-      ],
-    },
+    // {
+    //   name: "bibliografia",
+    //   type: "array",
+    //   title: "Bibliografía",
+    //   of: [
+    //     {
+    //       type: "componentbibliografia",
+    //       title: "Componentes de página Bibliografía",
+    //     },
+    //   ],
+    // },
   ],
 };
