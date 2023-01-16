@@ -3,20 +3,18 @@ export default {
   type: "document",
   title: "Pie de página",
   fields: [
-    {
-      name: "address",
-      type: "string",
-      title: "Direccion",
+   {
+      name: "logo",
+      type: "array",
+      title: "Logos",
+      of: [
+        {
+          type: "imageComponent",
+          title: "Logo",
+        },
+       
+      ],
     },
-    {
-      name: "phone",
-      type: "string",
-      title: "Telefono",
-    },
-    {
-      name: "email",
-      type: "string",
-      title: "Correo",
-    },
+
   ],
 };
