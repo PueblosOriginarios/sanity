@@ -20,6 +20,7 @@ export default {
       name: "slug",
       type: "slug",
       title: "Slug",
+      validation: (Rule) => Rule.required(),
     },
     {
       name: "tipoPdf",
