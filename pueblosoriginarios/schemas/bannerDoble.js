@@ -48,14 +48,9 @@ export default {
       },
     },
     {
-      name: "colorLeft",
+      name: "bgColorBanner",
       type: "color",
-      title: "Color Izquierdo",
-    },
-    {
-      name: "colorRight",
-      type: "color",
-      title: "Color Derecho",
+      title: "Color de Fondo",
     },
   ],
 };
