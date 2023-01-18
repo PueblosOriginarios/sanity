@@ -13,6 +13,12 @@ export default {
         to: { type: "pdf" },
       },
       {
+        name: "image",
+        type: "image",
+        title: "Imagen de bibliografía",
+        validation: (Rule) => Rule.required(),
+      },
+      {
         name: "filtroBilbliografia",
         type: "string",
         title: "Pueblo",
