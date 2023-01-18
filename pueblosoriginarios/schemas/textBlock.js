@@ -11,7 +11,12 @@ export default {
     {
       name: "richText",
       type: "richTextBody",
-      title: "Contenido",
+      title: "Contenido Visto",
+    },
+    {
+      name: "richTextOculto",
+      type: "richTextBody",
+      title: "Contenido Oculto",
     },
   ],
 };
