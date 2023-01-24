@@ -13,7 +13,6 @@ import menuObject from "./menuObject";
 import subMenuObject from "./subMenuObject";
 import buttonObject from "./buttonObject";
 import richText from "./richText";
-import banner from "./banner";
 import bannerDoble from "./bannerDoble";
 import home from "./home";
 import youtube from "./youtube";
@@ -56,7 +55,6 @@ export default createSchema({
     subMenuObject,
     buttonObject,
     richText,
-    banner,
     bannerDoble,
     youtube,
     iconTextObject,
@@ -83,6 +81,5 @@ export default createSchema({
     bibliografia,
     componentBibliografia,
     eventos,
-  
   ]),
 });
