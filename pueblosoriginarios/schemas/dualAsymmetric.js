@@ -17,6 +17,11 @@ export default {
       },
     },
     {
+      name: "imageDescription",
+      type: "string",
+      title: "Descripción de la Imagen",
+    },
+    {
       name: "imageSide",
       type: "string",
       title: "Lado imagen",

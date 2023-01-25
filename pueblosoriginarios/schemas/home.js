@@ -12,12 +12,6 @@ export default {
           type: "textBlock",
         },
         {
-          name: "banner",
-          type: "reference",
-          title: "Banner",
-          to: [{ type: "banner" }],
-        },
-        {
           name: "bannerDoble",
           type: "reference",
           title: "Banner Doble",

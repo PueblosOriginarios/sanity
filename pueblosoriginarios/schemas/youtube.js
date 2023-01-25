@@ -13,5 +13,10 @@ export default {
       type: "url",
       title: "Enlace",
     },
+    {
+      name: "imageDescription",
+      type: "string",
+      title: "Descripción de la Imagen",
+    },
   ],
 };

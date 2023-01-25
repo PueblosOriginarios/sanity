@@ -17,9 +17,14 @@ export default {
       },
     },
     {
+      name: "imageDescription",
+      type: "string",
+      title: "Descripción de la Imagen",
+    },
+    {
       name: "description",
       type: "string",
-      title: "Descripcion de la Imagen",
+      title: "Texto alternativo de la imagen",
     },
     {
       name: "content",

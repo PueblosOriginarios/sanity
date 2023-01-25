@@ -9,6 +9,12 @@ export default {
       title: "Titulo",
     },
     {
+      name: "link",
+      type: "url",
+      title: "Enlace",
+      
+    },
+    {
       name: "tipoEventos",
       type: "string",
       title: "eventos",
@@ -31,8 +37,9 @@ export default {
     },
     {
       name: "contenidoEvento",
-      type: "richTextBody",
+      type: "string",
       title: "Contenido del evento",
+      validation: (Rule) => Rule.max(200).error("Máximo de 200 caracteres permitido"),
     },
   ],
 };

@@ -13,7 +13,6 @@ import menuObject from "./menuObject";
 import subMenuObject from "./subMenuObject";
 import buttonObject from "./buttonObject";
 import richText from "./richText";
-import banner from "./banner";
 import bannerDoble from "./bannerDoble";
 import home from "./home";
 import youtube from "./youtube";
@@ -24,10 +23,6 @@ import colorList from "./colorList";
 import articleReference from "./articleReference";
 import textBlock from "./textBlock";
 import articleCard from "./articleCard";
-import moduloResidentes from "./moduloResidentes";
-import producto from "./producto";
-import quoteCard from "./quoteCard";
-import quotes from "./quotes";
 import arrayDualSection from "./arrayDualSection";
 import image from "./imageComponent";
 import arrayBanner from "./arrayBanner";
@@ -60,7 +55,6 @@ export default createSchema({
     subMenuObject,
     buttonObject,
     richText,
-    banner,
     bannerDoble,
     youtube,
     iconTextObject,
@@ -72,10 +66,6 @@ export default createSchema({
     textBlock,
     image,
     arrayDualSection,
-    moduloResidentes,
-    producto,
-    quoteCard,
-    quotes,
     arrayBanner,
     booleanArticle,
     carousel,
@@ -91,6 +81,5 @@ export default createSchema({
     bibliografia,
     componentBibliografia,
     eventos,
-  
   ]),
 });
