@@ -24,7 +24,7 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Descripcion de la Imagen",
+      title: "Texto alternativo de la imagen",
     },
     {
       name: "content",
