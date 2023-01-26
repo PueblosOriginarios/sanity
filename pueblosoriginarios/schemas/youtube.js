@@ -1,7 +1,7 @@
 export default {
   name: "youtube",
   type: "object",
-  title: "YouTube Video",
+  title: "YouTube Video o Imagen sola",
   fields: [
     {
       name: "titulo",
@@ -14,9 +14,14 @@ export default {
       title: "Enlace",
     },
     {
+      name: "image",
+      type: "imageComponent",
+      title: "Imagen",
+    },
+    {
       name: "imageDescription",
       type: "string",
-      title: "Descripción de la Imagen",
+      title: "Descripción de la imagen o del video",
     },
   ],
 };

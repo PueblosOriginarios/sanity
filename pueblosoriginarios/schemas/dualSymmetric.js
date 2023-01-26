@@ -22,14 +22,14 @@ export default {
       type: "string",
     },
     {
-      title: "Cuerpo",
+      title: "Texto Largo",
       name: "richTextDualS",
       type: "richTextBody",
     },
     {
       name: "imageSide",
       type: "string",
-      title: "Lado Imagen",
+      title: "Lado de la imagen o del video",
       options: {
         list: [
           { title: "Izquiera", value: "left" },

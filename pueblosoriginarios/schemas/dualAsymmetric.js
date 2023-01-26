@@ -24,7 +24,7 @@ export default {
     {
       name: "imageSide",
       type: "string",
-      title: "Lado imagen",
+      title: "Lado de la imagen o del video",
       options: {
         list: [
           { title: "Izquierda", value: "left" },
@@ -40,12 +40,12 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Descripcion",
+      title: "Texto Alternativo de la imagen",
     },
     {
       name: "richTextDualA",
       type: "richTextBody",
-      title: "Contenido",
+      title: "Texto Largo",
     },
     {
       name: "button",
