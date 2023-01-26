@@ -22,7 +22,7 @@ export default {
       type: "string",
     },
     {
-      title: "Cuerpo",
+      title: "Texto Largo",
       name: "richTextDualS",
       type: "richTextBody",
     },
