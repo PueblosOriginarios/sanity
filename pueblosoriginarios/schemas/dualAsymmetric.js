@@ -24,7 +24,7 @@ export default {
     {
       name: "imageSide",
       type: "string",
-      title: "Lado imagen",
+      title: "Lado de la imagen o del video",
       options: {
         list: [
           { title: "Izquierda", value: "left" },
