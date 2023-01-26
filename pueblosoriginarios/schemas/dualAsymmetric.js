@@ -40,12 +40,12 @@ export default {
     {
       name: "description",
       type: "string",
-      title: "Descripcion",
+      title: "Texto Alternativo de la imagen",
     },
     {
       name: "richTextDualA",
       type: "richTextBody",
-      title: "Contenido",
+      title: "Texto Largo",
     },
     {
       name: "button",
