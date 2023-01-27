@@ -31,6 +31,7 @@ export default {
           { title: "Derecha", value: "right" },
         ],
       },
+      validation: (Rule) => Rule.required(),
     },
     {
       name: "urlAudio",

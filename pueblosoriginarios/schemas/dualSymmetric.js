@@ -36,6 +36,7 @@ export default {
           { title: "Derecho", value: "right" },
         ],
       },
+      validation: (Rule) => Rule.required(),
     },
     {
       title: "Información Icono",

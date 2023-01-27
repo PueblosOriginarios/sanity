@@ -3,7 +3,7 @@ import categories from "./categories";
 export default {
   name: "pdf",
   type: "document",
-  title: "PDF",
+  title: "Materiales Didácticos PDF",
   fields: [
     {
       name: "categoryReferences",
