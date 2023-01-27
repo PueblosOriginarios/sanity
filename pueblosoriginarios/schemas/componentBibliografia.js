@@ -11,10 +11,9 @@ export default {
       title: "Descripción de la Bibliografia",
     },
     {
-      type: "reference",
-      name: "referenceBibliografia",
-      title: "PDF",
-      to: { type: "pdf" },
+      name: "link",
+      type: "url",
+      title: "Enlace",
     },
     {
       name: "image",
