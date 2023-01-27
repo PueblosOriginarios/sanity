@@ -32,8 +32,8 @@ export default {
       title: "Lado de la imagen o del video",
       options: {
         list: [
-          { title: "Izquiera", value: "left" },
-          { title: "Derecho", value: "right" },
+          { title: "Izquierda", value: "left" },
+          { title: "Derecha", value: "right" },
         ],
       },
       validation: (Rule) => Rule.required(),
