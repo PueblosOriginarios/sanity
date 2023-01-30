@@ -13,10 +13,5 @@ export default {
       name: "menu",
       type: "menu",
     },
-    {
-      name: "ctaButton",
-      type: "buttonObject",
-      title: "Boton",
-    },
   ],
 };
