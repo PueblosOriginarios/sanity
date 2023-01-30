@@ -9,11 +9,6 @@ export default {
       title: "Nombre Menu",
     },
     {
-      name: "link",
-      type: "string",
-      title: "Enlace",
-    },
-    {
       name: "submenu",
       type: "submenu",
       title: "Submenu",
