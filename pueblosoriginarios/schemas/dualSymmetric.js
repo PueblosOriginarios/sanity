@@ -12,9 +12,9 @@ export default {
       },
     },
     {
-      title: "Youtube Video",
-      name: "youtubeVideo",
-      type: "youtube",
+      name: "urlVideo",
+      type: "url",
+      title: "Enlace",
     },
     {
       title: "Titulo",
